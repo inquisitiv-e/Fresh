@@ -4,6 +4,10 @@
 
 Fresh is a web application that helps consumers make cost-friendly choices for groceries. Users can post grocery prices, locations and images to the app, and see reported deals submitted by other people. Leave thumbs up or down to help validate posts. Compare the prices of groceries through the search and sort features. When you find a deal that you like, bookmark them for later and see them in the shopping list.
 
+## Demo
+![](/fresh-demo-pt-1.gif)
+![](/fresh-demo-pt-2.gif)
+
 ## Table of contents
 1. Introduction
    * [Who is it for?](#who-is-it-for)
@@ -24,8 +28,8 @@ Fresh is a web application that helps consumers make cost-friendly choices for g
    * [Local](#local)
    * [Local, with Atlas hosted MongoDB](#local-with-atlas-hosted-mongodb)
    
-4. Demo
-   * [Powerpoint](https://docs.google.com/presentation/d/1CpITPKZkjOh5hbJ23dvpwpprxqKUkWSCMsCH39dXqNs/edit?usp=sharing)
+4. Presentation
+   * [Powerpoint](/Presentation.pdf)
    
   
 ## Introduction
@@ -125,7 +129,7 @@ Users will be able to leave thumbs up or down on prices to validate them.
 
 Erica: Creation of autocomplete geo-suggest component using Google Maps API, addition of marker on the map component with lat/lng received. Incorporation of user accounts and logic of information hiding from random users. Implmentation of the shopping list, which allows users to add, edit and clear grocery items from the database. Setup of Email component that enables users to send themselves an email with their current shopping list using Meteor methods. Formatting the form for new postings, submit button disabled until every field is filled out. Making and reviewing PRS for code-review and feedback. 
 
-Nicole: For project implementation, I contributed to the frontend React/Redux logic, such as implementing the sorting posts feature. I also worked on design and layout, which led the final app to look very similar to the original mock-ups. As a team player, I reviewed many PRs and pair-programmed.
+Nicole: For project implementation, I contributed to the frontend using React and Redux by implementing sorting to sort posts by price or latest time posted, thumbs rating to rate deals, modal form to submit deals, price field validation in modal and more. I also worked on design and layout, which led the final app to look very similar to the original mock-ups. As a team player, I reviewed many PRs and pair-programmed.
 
 Yao: Primarily involved in project setup, incorporating and initializing Meteor, Redux, React, Mongo, and Heroku deployment and configuration. Managing required accounts and access user credentials. Layout initial application with Google Map, search bar, cards and new post elements. Implement redux store and backend Meteor methods to interact with MongoDB for item creation and retrieval, rating manipulation, search bar item additions. Add custom image uploading to Fresh form with image compression and storage in MongoDB and then display image based on dynamic source. Configure and enable Fresh for continuous deployment on Heroku. Made multiple bug fixes and promote best practices through PRs and pair-programming. 
 
